@@ -71,3 +71,34 @@ section {
 	justify-content: center;
 	align-items: center;
 }
+
+.histsec {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg);
+}
+
+.learnmore {
+	margin-bottom: 90px;
+}
+
+.btn-primary {
+	background-color: #cd4541;
+	border: 0px;
+	display: block;
+	width: 100%;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #cd4541;
+	border-color: #cd4541;
+}
+
+blockquote {
+	font-size: 1.25rem;
+}

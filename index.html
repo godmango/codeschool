@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Document</title>
 		<link
 			rel="stylesheet"
@@ -16,7 +17,12 @@
 			href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
 			integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+		/>
 		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="img/tab-icon.png" type="image/x-icon" />
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -74,10 +80,10 @@
 				<h1 class="text-center red">Curriculum designed to get you hired</h1>
 				<p class="text-center">
 					Originally developed in Silicon Valley, our teaching materials bring a
-					wealth of experience in coding education. We focus on real-world
-					projects so you can build a strong portfolio of real apps that
-					simulate the types of challenges you will meet in your professional
-					career.
+					wealth of experience in education. We focus on real-world projects so
+					you can <br />
+					build a strong portfolio of real apps that simulate the types of
+					challenges you will meet in your professional career.
 				</p>
 			</div>
 			<div class="container">
@@ -143,24 +149,24 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="histsec d-flex align-items-center justify-content-center">
 			<div class="text-center">
 				<h1>
 					<i class="fas fa-history"></i>
 					History
 				</h1>
-				<p>
+				<blockquote>
 					Over the past 5 years we've trained over 800 developers.
 					<br />
 					Our alumni include engineers currently working at Grab, Facebook,
 					Google, & Netflix
-				</p>
+				</blockquote>
 			</div>
 		</section>
 		<section class="contact d-flex align-items-center justify-content-center">
 			<div>
-				<div class="text-center">
-					<h1>Learn More</h1>
+				<div class="learnmore text-center">
+					<h1 class="red">Learn More</h1>
 					<p>
 						We have guidance counslers available to support you in your learning
 						journey. <br />
@@ -171,38 +177,43 @@
 				<form>
 					<div class="form-row">
 						<div class="form-group col-md-6">
-							<label for="inputEmail4">Email</label>
+							<label for="inputEmail4">First Name</label>
 							<input type="email" class="form-control" id="inputEmail4" />
 						</div>
 						<div class="form-group col-md-6">
-							<label for="inputPassword4">Password</label>
+							<label for="inputPassword4">Last Name</label>
 							<input type="password" class="form-control" id="inputPassword4" />
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
-							<label for="inputAddress">Address</label>
+							<label for="inputAddress">Email</label>
 							<input
 								type="text"
 								class="form-control"
 								id="inputAddress"
-								placeholder="1234 Main St"
+								placeholder="Email"
 							/>
 						</div>
 						<div class="form-group col-md-6">
-							<label for="inputAddress2">Address 2</label>
+							<label for="inputAddress2">Phone</label>
 							<input
 								type="text"
 								class="form-control"
 								id="inputAddress2"
-								placeholder="Apartment, studio, or floor"
+								placeholder="Phone No"
 							/>
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label for="inputCity">City</label>
-						<input type="text" class="form-control" id="inputCity" />
+						<label for="inputCity">Address</label>
+						<input
+							type="text"
+							class="form-control"
+							id="inputCity"
+							placeholder="Apartment, studio, or floor"
+						/>
 					</div>
 
 					<div class="form-group">
